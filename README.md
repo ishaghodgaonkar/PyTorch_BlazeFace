@@ -19,6 +19,21 @@ model = BlazeFace()
 h = model(x)
 ```
 
+## To Train
+```
+python3 train.py
+```
+
+## To test on testing dataset
+```
+python3 test.py --real-time=False
+```
+
+## To test in real time
+```
+python3 test.py --real-time=True
+```
+
 ## Paper
 ### BlazeFace: Sub-millisecond Neural Face Detection on Mobile GPUs
 [[Project Page]](https://sites.google.com/view/perception-cv4arvr/blazeface)
