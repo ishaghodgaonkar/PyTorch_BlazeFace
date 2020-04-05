@@ -4,21 +4,6 @@
 
 Unofficial PyTorch implementation of [BlazeFace](https://sites.google.com/view/perception-cv4arvr/blazeface)
 
-## Installation
-
-```bash
-pip install git+https://github.com/tkat0/PyTorch_BlazeFace
-```
-
-```python
-import torch
-from blazeface import BlazeFace
-
-x = torch.randn(1, 3, 128, 128)
-model = BlazeFace()
-h = model(x)
-```
-
 ## To Train
 ```
 python3 train.py
